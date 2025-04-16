@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+}
+
+.container{
+    position: relative;
+    top: 20px;
+   height: 980px;
+   width: 800px;
+   position: relative;
+   left: 460px;
+   border: 2px solid black;
+   
+}
+
+.colourbar{
+    height: 80px;
+    width:800px ;
+    background-color: pink;
+}
+
+.sidebox{
+    height:900px ;
+    width: 270px;
+    position: absolute;
+    top: 40px ;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.photo{
+    height: 220px;
+    width: 220px ;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20px;
+    border: 2px solid black;
+}
+.personalinfo{
+    height: 100px;
+    width: 220px ;
+   
+    position: absolute;
+    top: 250px;
+    text-align: left;
+}
+
+.education{
+    position: absolute;
+        left: 20px;
+        top: 370px;
+        font-size: 18px;
+        width: 100px;
+        height: 25px;
+        background-color: pink;
+        border-radius: 15px;
+       text-align: center; 
+   
+}
+.educont {
+    text-align: left;
+    width: 265px;
+    position: absolute;
+    left: 12px;
+    top: 33px;
+    list-style: none;
+    line-height: 25px;
+    margin-bottom: 5px;
+    
+
+}
+
+.expertise{
+    position: absolute;
+    left: 20px;
+    top: 630px;
+        font-size: 18px;
+        width: 100px;
+        height: 25px;
+        background-color: pink;
+        border-radius: 15px;
+       text-align: center;
+}
+
+.exp{
+    
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    list-style: none;
+    text-align: left;
+     left: 15px;
+    line-height: 27px;
+}
+
+.languages{
+    position: absolute;
+    left: 20px;
+    top: 810px;
+        font-size: 18px;
+        width: 100px;
+        height: 25px;
+        background-color: pink;
+        border-radius: 15px;
+       text-align: center;
+}
+
+.lang{
+   
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    list-style: none;
+    text-align: left;
+     left: 15px;
+    line-height: 27px;
+}
+
+.name{
+    position: absolute;
+    left: 300px;
+    top: 1px;
+    width: 300px;
+}
+
+.name p{
+    position: absolute;
+    left: 5px;
+}
+
+.summary{
+    position: absolute;
+    left: 300px;
+    top: 105px;
+    width: 427px;
+    text-align: justify;
+}
+
+
+.summary h2{
+    background-color: pink;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.experience{
+    position: absolute;
+    left: 300px;
+    top: 340px;
+    width: 427px;
+}
+.experience h2{
+    background-color: pink;
+    text-align: center;
+    border-radius: 10px;
+}
